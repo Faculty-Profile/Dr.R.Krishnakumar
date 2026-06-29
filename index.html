@@ -1,0 +1,1585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dr. R. Krishnakumar | Associate Professor of Commerce | Faculty Profile</title>
+
+<meta name="description" content="Official Faculty Profile of Dr. R. Krishnakumar, Associate Professor of Commerce, St. Joseph's College of Arts & Science (Autonomous), Cuddalore. Research, Publications, Awards, Academic Services, Conferences and Contact Information.">
+
+<meta name="keywords" content="Dr R Krishnakumar, Commerce Professor, Associate Professor Commerce, St Joseph College Cuddalore, Commerce Faculty, Financial Management, Digital Finance, Research Publications, Faculty Profile">
+
+<meta name="author" content="Dr. R. Krishnakumar">
+
+<meta name="robots" content="index, follow">
+
+<meta property="og:title" content="Dr. R. Krishnakumar | Faculty Profile">
+
+<meta property="og:description" content="Official Faculty Website of Dr. R. Krishnakumar">
+
+<meta property="og:type" content="website">
+
+<meta property="og:image" content="images/profile.jpg">
+
+<meta property="og:url" content="https://yourdomain.com">
+
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="twitter:title" content="Dr. R. Krishnakumar">
+
+<meta name="twitter:description" content="Official Faculty Profile">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+
+font-family:'Poppins',sans-serif;
+
+background:#eef3f9;
+
+color:#333;
+
+overflow-x:hidden;
+
+}
+
+/* Loading Screen */
+
+#loader{
+
+position:fixed;
+
+width:100%;
+
+height:100%;
+
+background:#002147;
+
+color:white;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+flex-direction:column;
+
+z-index:99999;
+
+transition:1s;
+
+}
+
+#loader h1{
+
+font-size:42px;
+
+}
+
+#loader p{
+
+margin-top:15px;
+
+color:#9fd1ff;
+
+}
+
+.loader-circle{
+
+width:60px;
+
+height:60px;
+
+border:6px solid rgba(255,255,255,.3);
+
+border-top:6px solid white;
+
+border-radius:50%;
+
+margin-top:25px;
+
+animation:spin 1s linear infinite;
+
+}
+
+@keyframes spin{
+
+100%{
+
+transform:rotate(360deg);
+
+}
+
+}
+
+/* Progress Bar */
+
+#progress{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+height:5px;
+
+background:#00bfff;
+
+width:0;
+
+z-index:9999;
+
+}
+
+/* Navbar */
+
+nav{
+
+position:sticky;
+
+top:0;
+
+background:#002147;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:18px 8%;
+
+z-index:999;
+
+box-shadow:0 5px 20px rgba(0,0,0,.2);
+
+}
+
+.logo{
+
+font-size:24px;
+
+font-weight:700;
+
+color:white;
+
+}
+
+nav ul{
+
+display:flex;
+
+gap:25px;
+
+list-style:none;
+
+}
+
+nav ul li a{
+
+color:white;
+
+text-decoration:none;
+
+font-weight:500;
+
+transition:.3s;
+
+}
+
+nav ul li a:hover{
+
+color:#8bd0ff;
+
+}
+
+/* Hero */
+
+.hero{
+
+min-height:100vh;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+padding:80px 8%;
+
+background:
+
+linear-gradient(rgba(0,33,71,.82),rgba(0,75,141,.82)),
+
+url('images/banner.jpg');
+
+background-size:cover;
+
+background-position:center;
+
+}
+
+.hero-content{
+
+display:flex;
+
+align-items:center;
+
+gap:60px;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+}
+
+.hero img{
+
+width:300px;
+
+height:300px;
+
+border-radius:50%;
+
+border:8px solid white;
+
+box-shadow:0 15px 40px rgba(0,0,0,.4);
+
+animation:float 4s ease-in-out infinite;
+
+object-fit:cover;
+
+}
+
+@keyframes float{
+
+0%,100%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-12px);
+
+}
+
+}
+
+.hero-text{
+
+max-width:650px;
+
+color:white;
+
+}
+
+.hero-text h1{
+
+font-size:58px;
+
+line-height:1.2;
+
+}
+
+.hero-text h3{
+
+margin-top:20px;
+
+font-size:28px;
+
+font-weight:400;
+
+color:#b7e2ff;
+
+}
+
+.hero-text p{
+
+margin-top:25px;
+
+line-height:1.9;
+
+font-size:18px;
+
+color:#edf7ff;
+
+}
+
+.buttons{
+
+margin-top:35px;
+
+display:flex;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+}
+
+.btn{
+
+padding:14px 34px;
+
+background:#00bfff;
+
+color:white;
+
+border-radius:40px;
+
+text-decoration:none;
+
+font-weight:600;
+
+transition:.35s;
+
+}
+
+.btn:hover{
+
+background:white;
+
+color:#002147;
+
+transform:translateY(-5px);
+
+}
+
+.btn-outline{
+
+background:transparent;
+
+border:2px solid white;
+
+}
+
+.btn-outline:hover{
+
+background:white;
+
+color:#002147;
+
+}
+
+@media(max-width:900px){
+
+.hero{
+
+text-align:center;
+
+}
+
+.hero img{
+
+width:220px;
+
+height:220px;
+
+}
+
+.hero-text h1{
+
+font-size:40px;
+
+}
+
+nav{
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+nav ul{
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+}
+
+}
+
+</style>
+
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"Person",
+"name":"Dr. R. Krishnakumar",
+"jobTitle":"Associate Professor of Commerce",
+"affiliation":"St. Joseph's College of Arts & Science (Autonomous), Cuddalore",
+"email":"mailto:krisunah@gmail.com",
+"telephone":"+91-9944584998"
+}
+</script>
+
+</head>
+
+<body>
+
+<div id="loader">
+
+<h1>Faculty Profile</h1>
+
+<p>Dr. R. Krishnakumar</p>
+
+<div class="loader-circle"></div>
+
+</div>
+
+<div id="progress"></div>
+
+<nav>
+
+<div class="logo">
+
+Dr. R. Krishnakumar
+
+</div>
+
+<ul>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#stats">Statistics</a></li>
+
+<li><a href="#portal">Faculty Portal</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<img src="images/profile.jpeg" alt="Dr. R. Krishnakumar">
+
+<div class="hero-text">
+
+<h1>Dr. R. Krishnakumar</h1>
+
+<h3 id="typing"></h3>
+
+<p>
+
+Associate Professor of Commerce at St. Joseph's College of Arts & Science (Autonomous), Cuddalore, with over 28 years of teaching, research and academic leadership.
+
+</p>
+
+<div class="buttons">
+
+<a href="#portal" class="btn">Explore Profile</a>
+
+<a href="contact.html" class="btn btn-outline">Contact</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===========================
+ABOUT SECTION
+=========================== -->
+
+<section id="about" style="padding:90px 8%;background:white;">
+
+<h2 class="section-title">About Dr. R. Krishnakumar</h2>
+
+<div class="line"></div>
+
+<div class="about-grid">
+
+<div class="about-card">
+
+<h3>Academic Biography</h3>
+
+<p>
+
+Dr. <strong>R. Krishnakumar</strong> is an accomplished Associate Professor in the
+PG & Research Department of Commerce,
+St. Joseph's College of Arts & Science (Autonomous), Cuddalore.
+
+With over <strong>28 years of teaching experience</strong>,
+he has dedicated his academic career to teaching,
+research, student mentoring and institutional development.
+
+He earned his Ph.D. in Commerce from Bharathidasan University
+and has guided numerous doctoral and postgraduate scholars.
+
+His research focuses on Financial Management,
+Digital Finance, Financial Inclusion,
+Accounting, Consumer Behaviour,
+Marketing and Business Management.
+
+</p>
+
+</div>
+
+<div class="about-card">
+
+<h3>Professional Highlights</h3>
+
+<ul>
+
+<li>✔ 28+ Years of Teaching Experience</li>
+
+<li>✔ Associate Professor of Commerce</li>
+
+<li>✔ SET Qualified (Commerce)</li>
+
+<li>✔ 57+ Research Publications</li>
+
+<li>✔ Scopus Indexed Publications</li>
+
+<li>✔ 16 Ph.D. Scholars Guided</li>
+
+<li>✔ Editorial Board Member</li>
+
+<li>✔ International Journal Reviewer</li>
+
+<li>✔ Multiple Best Paper Awards</li>
+
+<li>✔ Best Research Advisor Award</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===========================
+STATISTICS
+=========================== -->
+
+<section id="stats" class="stats-section">
+
+<h2 class="section-title" style="color:white;">
+
+Academic Statistics
+
+</h2>
+
+<div class="line" style="background:white;"></div>
+
+<div class="stats-grid">
+
+<div class="counter-box">
+
+<h2 class="counter" data-target="28">0</h2>
+
+<p>Years Teaching</p>
+
+</div>
+
+<div class="counter-box">
+
+<h2 class="counter" data-target="57">0</h2>
+
+<p>Research Publications</p>
+
+</div>
+
+<div class="counter-box">
+
+<h2 class="counter" data-target="16">0</h2>
+
+<p>Ph.D Guided</p>
+
+</div>
+
+<div class="counter-box">
+
+<h2 class="counter" data-target="27">0</h2>
+
+<p>M.Phil Guided</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===========================
+FEATURED ACHIEVEMENTS
+=========================== -->
+
+<section style="padding:90px 8%;background:#eef3f9;">
+
+<h2 class="section-title">
+
+Featured Achievements
+
+</h2>
+
+<div class="line"></div>
+
+<div class="achievement-grid">
+
+<div class="achievement">
+
+🏆
+
+<h3>Teacher Achievement Award</h3>
+
+<p>
+
+Recognized as the Best Teacher for excellence in teaching and academic commitment.
+
+</p>
+
+</div>
+
+<div class="achievement">
+
+🥇
+
+<h3>Best Research Advisor</h3>
+
+<p>
+
+Honoured by Indian Academic Researchers Association.
+
+</p>
+
+</div>
+
+<div class="achievement">
+
+📚
+
+<h3>57+ Publications</h3>
+
+<p>
+
+Published research papers in National, International and Scopus Indexed journals.
+
+</p>
+
+</div>
+
+<div class="achievement">
+
+📰
+
+<h3>Editorial Board</h3>
+
+<p>
+
+Editorial Board Member and International Journal Reviewer.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<style>
+
+/* ABOUT */
+
+.about-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(450px,1fr));
+
+gap:35px;
+
+margin-top:45px;
+
+}
+
+.about-card{
+
+background:#eef5ff;
+
+padding:35px;
+
+border-radius:18px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+transition:.4s;
+
+}
+
+.about-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.about-card h3{
+
+color:#002147;
+
+margin-bottom:20px;
+
+font-size:28px;
+
+}
+
+.about-card p{
+
+line-height:2;
+
+}
+
+.about-card ul{
+
+padding-left:22px;
+
+line-height:2.2;
+
+}
+
+/* Statistics */
+
+.stats-section{
+
+background:linear-gradient(135deg,#002147,#004b8d);
+
+padding:90px 8%;
+
+}
+
+.stats-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:30px;
+
+margin-top:50px;
+
+}
+
+.counter-box{
+
+background:white;
+
+padding:35px;
+
+border-radius:20px;
+
+text-align:center;
+
+transition:.4s;
+
+}
+
+.counter-box:hover{
+
+transform:translateY(-10px);
+
+}
+
+.counter-box h2{
+
+font-size:52px;
+
+color:#002147;
+
+}
+
+.counter-box p{
+
+margin-top:12px;
+
+font-size:18px;
+
+font-weight:600;
+
+}
+
+/* Achievements */
+
+.achievement-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:30px;
+
+margin-top:50px;
+
+}
+
+.achievement{
+
+background:white;
+
+padding:35px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+font-size:55px;
+
+transition:.35s;
+
+}
+
+.achievement:hover{
+
+transform:translateY(-12px);
+
+}
+
+.achievement h3{
+
+font-size:24px;
+
+color:#002147;
+
+margin:20px 0;
+
+}
+
+.achievement p{
+
+font-size:16px;
+
+line-height:1.8;
+
+}
+
+@media(max-width:900px){
+
+.about-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+<!-- ===========================
+FACULTY PORTAL
+============================ -->
+
+<section id="portal" style="padding:90px 8%;background:#eef3f9;">
+
+<h2 class="section-title">Faculty Portal</h2>
+
+<div class="line"></div>
+
+<div class="portal-grid">
+
+<a href="profile.html" class="portal-card">
+<div class="portal-icon">👤</div>
+<h3>Profile</h3>
+<p>Biography, Personal Information and Research Interests.</p>
+<span>Explore →</span>
+</a>
+
+<a href="education.html" class="portal-card">
+<div class="portal-icon">🎓</div>
+<h3>Education</h3>
+<p>Academic Qualifications and Educational Background.</p>
+<span>Explore →</span>
+</a>
+
+<a href="experience.html" class="portal-card">
+<div class="portal-icon">👨‍🏫</div>
+<h3>Experience</h3>
+<p>Teaching Experience and Academic Career.</p>
+<span>Explore →</span>
+</a>
+
+<a href="research.html" class="portal-card">
+<div class="portal-icon">🔬</div>
+<h3>Research</h3>
+<p>Research Areas, Interests and Academic Contributions.</p>
+<span>Explore →</span>
+</a>
+
+<a href="supervision.html" class="portal-card">
+<div class="portal-icon">🎓</div>
+<h3>Supervision</h3>
+<p>Research Guidance for Ph.D., M.Phil. and PG Scholars.</p>
+<span>Explore →</span>
+</a>
+
+<a href="publications.html" class="portal-card">
+<div class="portal-icon">📚</div>
+<h3>Publications</h3>
+<p>National & International Journal Publications.</p>
+<span>Explore →</span>
+</a>
+
+<a href="conferences.html" class="portal-card">
+<div class="portal-icon">🎤</div>
+<h3>Conferences</h3>
+<p>Seminars, Workshops and Conference Presentations.</p>
+<span>Explore →</span>
+</a>
+
+<a href="awards.html" class="portal-card">
+<div class="portal-icon">🏆</div>
+<h3>Awards</h3>
+<p>Academic Honours and Professional Recognition.</p>
+<span>Explore →</span>
+</a>
+
+<a href="academic-services.html" class="portal-card">
+<div class="portal-icon">🏛️</div>
+<h3>Academic Services</h3>
+<p>Leadership Roles and University Responsibilities.</p>
+<span>Explore →</span>
+</a>
+
+<a href="memberships.html" class="portal-card">
+<div class="portal-icon">🤝</div>
+<h3>Memberships</h3>
+<p>Professional Bodies and Academic Associations.</p>
+<span>Explore →</span>
+</a>
+
+<a href="editorial.html" class="portal-card">
+<div class="portal-icon">📝</div>
+<h3>Editorial</h3>
+<p>Editorial Board Membership and Journal Reviewing.</p>
+<span>Explore →</span>
+</a>
+
+<a href="contact.html" class="portal-card">
+<div class="portal-icon">📞</div>
+<h3>Contact</h3>
+<p>Office Address, Residence and Academic Profiles.</p>
+<span>Explore →</span>
+</a>
+
+</div>
+
+</section>
+
+<!-- ===========================
+RESEARCH PROFILES
+============================ -->
+
+<section style="padding:90px 8%;background:white;">
+
+<h2 class="section-title">Academic Profiles</h2>
+
+<div class="line"></div>
+
+<div class="profiles">
+
+<a href="https://scholar.google.com/citations?user=7AfpVeMAAAAJ&hl=en" target="_blank" class="profile-box">
+🎓
+<h3>Google Scholar</h3>
+</a>
+
+<a href="https://www.researchgate.net/profile/R-Krishnakumar" target="_blank" class="profile-box">
+🔬
+<h3>ResearchGate</h3>
+</a>
+
+<a href="https://orcid.org/0000-0001-7267-7000" target="_blank" class="profile-box">
+🆔
+<h3>ORCID</h3>
+</a>
+
+<a href="https://id.elsevier.com/" target="_blank" class="profile-box">
+📖
+<h3>Elsevier</h3>
+</a>
+
+</div>
+
+</section>
+
+<style>
+
+.portal-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+margin-top:50px;
+
+}
+
+.portal-card{
+
+background:white;
+
+padding:35px;
+
+border-radius:20px;
+
+text-decoration:none;
+
+color:#333;
+
+box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+transition:.4s;
+
+border-top:5px solid transparent;
+
+}
+
+.portal-card:hover{
+
+transform:translateY(-12px);
+
+border-top:5px solid #00bfff;
+
+box-shadow:0 20px 45px rgba(0,0,0,.18);
+
+}
+
+.portal-icon{
+
+font-size:50px;
+
+margin-bottom:20px;
+
+}
+
+.portal-card h3{
+
+color:#002147;
+
+margin-bottom:15px;
+
+font-size:26px;
+
+}
+
+.portal-card p{
+
+line-height:1.8;
+
+margin-bottom:20px;
+
+}
+
+.portal-card span{
+
+font-weight:700;
+
+color:#0077ff;
+
+}
+
+.profiles{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:25px;
+
+margin-top:50px;
+
+}
+
+.profile-box{
+
+background:#eef5ff;
+
+padding:35px;
+
+text-align:center;
+
+text-decoration:none;
+
+color:#002147;
+
+border-radius:18px;
+
+font-size:45px;
+
+transition:.35s;
+
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.profile-box:hover{
+
+background:#002147;
+
+color:white;
+
+transform:translateY(-10px);
+
+}
+
+.profile-box h3{
+
+margin-top:15px;
+
+font-size:22px;
+
+}
+
+</style>
+
+<!-- ===========================
+CONTACT SECTION
+=========================== -->
+
+<section id="contact" style="padding:90px 8%;background:#ffffff;">
+
+<h2 class="section-title">Get in Touch</h2>
+<div class="line"></div>
+
+<div class="contact-grid">
+
+<div class="contact-card">
+<div class="contact-icon">📞</div>
+<h3>Phone</h3>
+<p>+91 99445 84998</p>
+</div>
+
+<div class="contact-card">
+<div class="contact-icon">✉️</div>
+<h3>Email</h3>
+<p>krisunah@gmail.com</p>
+</div>
+
+<div class="contact-card">
+<div class="contact-icon">🏛️</div>
+<h3>Office</h3>
+<p>
+PG & Research Department of Commerce<br>
+St. Joseph's College of Arts & Science (Autonomous)<br>
+Manjakuppam, Cuddalore - 607001
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ===========================
+FOOTER
+=========================== -->
+
+<footer>
+
+<h2>Dr. R. Krishnakumar</h2>
+
+<p>
+Associate Professor of Commerce<br>
+St. Joseph's College of Arts & Science (Autonomous), Cuddalore
+</p>
+
+<div class="footer-links">
+
+<a href="profile.html">Profile</a>
+
+<a href="research.html">Research</a>
+
+<a href="publications.html">Publications</a>
+
+<a href="contact.html">Contact</a>
+
+</div>
+
+<p class="copyright">
+
+© 2026 Dr. R. Krishnakumar | All Rights Reserved
+
+</p>
+
+</footer>
+
+<button id="topBtn">↑</button>
+
+<style>
+
+.contact-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+margin-top:50px;
+
+}
+
+.contact-card{
+
+background:#eef5ff;
+
+padding:35px;
+
+border-radius:18px;
+
+text-align:center;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+transition:.35s;
+
+}
+
+.contact-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.contact-icon{
+
+font-size:50px;
+
+margin-bottom:20px;
+
+}
+
+.contact-card h3{
+
+color:#002147;
+
+margin-bottom:15px;
+
+}
+
+.contact-card p{
+
+line-height:1.8;
+
+}
+
+footer{
+
+background:#002147;
+
+color:white;
+
+padding:60px 8%;
+
+text-align:center;
+
+}
+
+footer h2{
+
+font-size:34px;
+
+margin-bottom:15px;
+
+}
+
+footer p{
+
+color:#d8e9ff;
+
+line-height:1.8;
+
+}
+
+.footer-links{
+
+margin:30px 0;
+
+display:flex;
+
+justify-content:center;
+
+gap:25px;
+
+flex-wrap:wrap;
+
+}
+
+.footer-links a{
+
+color:white;
+
+text-decoration:none;
+
+transition:.3s;
+
+}
+
+.footer-links a:hover{
+
+color:#69c9ff;
+
+}
+
+.copyright{
+
+margin-top:30px;
+
+font-size:14px;
+
+}
+
+#topBtn{
+
+position:fixed;
+
+bottom:30px;
+
+right:30px;
+
+width:55px;
+
+height:55px;
+
+border:none;
+
+border-radius:50%;
+
+background:#00bfff;
+
+color:white;
+
+font-size:24px;
+
+cursor:pointer;
+
+display:none;
+
+box-shadow:0 8px 18px rgba(0,0,0,.3);
+
+transition:.3s;
+
+z-index:999;
+
+}
+
+#topBtn:hover{
+
+background:#002147;
+
+transform:translateY(-5px);
+
+}
+
+</style>
+
+<script>
+
+/* Loading Screen */
+
+window.onload=function(){
+
+setTimeout(function(){
+
+document.getElementById("loader").style.opacity="0";
+
+document.getElementById("loader").style.visibility="hidden";
+
+},1200);
+
+}
+
+/* Scroll Progress */
+
+window.addEventListener("scroll",function(){
+
+let win=document.documentElement.scrollTop;
+
+let height=document.documentElement.scrollHeight-document.documentElement.clientHeight;
+
+let scrolled=(win/height)*100;
+
+document.getElementById("progress").style.width=scrolled+"%";
+
+});
+
+/* Animated Counter */
+
+const counters=document.querySelectorAll(".counter");
+
+const speed=120;
+
+counters.forEach(counter=>{
+
+const update=()=>{
+
+const target=+counter.getAttribute("data-target");
+
+const count=+counter.innerText;
+
+const inc=Math.ceil(target/speed);
+
+if(count<target){
+
+counter.innerText=count+inc;
+
+setTimeout(update,20);
+
+}
+
+else{
+
+counter.innerText=target+"+";
+
+}
+
+}
+
+update();
+
+});
+
+/* Typewriter */
+
+const text=[
+"Associate Professor of Commerce",
+"Research Supervisor",
+"Scopus Author",
+"Editorial Board Member"
+];
+
+let count=0;
+let index=0;
+let current="";
+let letter="";
+
+(function type(){
+
+if(count===text.length){
+
+count=0;
+
+}
+
+current=text[count];
+
+letter=current.slice(0,++index);
+
+document.getElementById("typing").textContent=letter;
+
+if(letter.length===current.length){
+
+count++;
+
+index=0;
+
+setTimeout(type,1800);
+
+}
+
+else{
+
+setTimeout(type,70);
+
+}
+
+})();
+
+/* Back To Top */
+
+const btn=document.getElementById("topBtn");
+
+window.onscroll=function(){
+
+if(document.body.scrollTop>300||document.documentElement.scrollTop>300){
+
+btn.style.display="block";
+
+}
+
+else{
+
+btn.style.display="none";
+
+}
+
+};
+
+btn.onclick=function(){
+
+window.scrollTo({
+
+top:0,
+
+behavior:"smooth"
+
+});
+
+};
+
+/* Scroll Reveal */
+
+const reveal=document.querySelectorAll(".about-card,.counter-box,.achievement,.portal-card,.profile-box,.contact-card");
+
+window.addEventListener("scroll",()=>{
+
+let trigger=window.innerHeight-100;
+
+reveal.forEach(el=>{
+
+let top=el.getBoundingClientRect().top;
+
+if(top<trigger){
+
+el.style.opacity="1";
+
+el.style.transform="translateY(0)";
+
+}
+
+});
+
+});
+
+reveal.forEach(el=>{
+
+el.style.opacity="0";
+
+el.style.transform="translateY(60px)";
+
+el.style.transition=".8s";
+
+});
+
+</script>
+
+</body>
+</html>

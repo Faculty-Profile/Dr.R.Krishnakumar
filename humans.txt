@@ -1,0 +1,57 @@
+/* TEAM */
+
+Website Owner:
+Dr. R. Krishnakumar
+
+Position:
+Associate Professor of Commerce
+
+Department:
+PG & Research Department of Commerce
+
+Institution:
+St. Joseph's College of Arts & Science (Autonomous)
+
+Location:
+Cuddalore, Tamil Nadu, India
+
+Email:
+krisunah@gmail.com
+
+Website:
+https://Faculty-Profile.github.io/Dr.R.Krishnakumar/
+
+
+/* WEBSITE */
+
+Project:
+Official Faculty Profile Website
+
+Version:
+1.0
+
+Built With:
+HTML5
+CSS3
+Responsive Design
+GitHub Pages
+
+Features:
+✓ Responsive Layout
+✓ Search Engine Optimized (SEO)
+✓ Academic Publications
+✓ Research Supervision
+✓ Awards & Achievements
+✓ Editorial Responsibilities
+✓ Professional Memberships
+✓ Contact Information
+
+Launch:
+June 2026
+
+
+/* COPYRIGHT */
+
+© 2026 Dr. R. Krishnakumar
+
+All Rights Reserved.

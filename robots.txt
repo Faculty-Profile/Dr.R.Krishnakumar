@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://Faculty-Profile.github.io/Dr.R.Krishnakumar/sitemap.xml
